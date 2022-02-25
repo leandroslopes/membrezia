@@ -1,0 +1,59 @@
+SISTEMA
+Entrar no sistema - OK
+Sair do sistema - OK
+
+CONFIGURACOES
+Adicionar acesso ao cargo no modulo - OK   
+Excluir acesso do cargo no modulo - OK
+Backup da base de bados - OK
+
+FUNCAO
+Cadastrar funcao - OK   
+Excluir funcao - OK
+
+PERFIL
+Alterar senha - OK 
+
+CADASTRO
+Pesquisar membro - OK
+Cadastrar membro - OK
+Editar membro - OK
+Desligar membro - OK
+Adicionar dizimo - OK
+Editar dizimo - OK
+Excluir dizimo - OK
+Adicionar oferta - OK
+Editar oferta - OK
+Excluir oferta - OK
+Adicionar usuario - OK
+Editar usuario - OK
+Desativar usuario - OK
+
+CONGREGACAO
+Cadastrar congregacao - OK
+Editar congregacao -  OK
+Tornar congregacao padrao - OK
+Adicionar culto -  OK
+Dessacioar culto - OK
+Adicionar oferta - OK 
+Editar oferta - OK
+Excluir oferta - OK
+
+CULTO
+Cadastrar culto - OK 
+Editar culto - OK
+Excluir culto - OK
+
+MOVIMENTACAO
+Cadastrar tipo de despesa - OK  
+Editar tipo de despesa - OK
+Excluir tipo de despesa - OK
+Cadastrar despesa - OK
+Editar despesa - OK
+Excluir despesa - OK
+Cadastrar receita - OK 
+Editar receita - OK
+Excluir receita - OK
+
+RELATORIO
+Gerar relatorio - OK
