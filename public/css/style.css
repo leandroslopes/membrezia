@@ -1,0 +1,700 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+   CSS Reset
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* CONFIGURAÇÕES DE TAGS */
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #f8f8f8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;    
+}
+
+a:hover {
+    text-decoration: none;
+    opacity: 0.7;
+    -moz-opacity: 0.7;
+    filter: alpha(opacity = 70)
+}
+
+input, select {
+    border: 1px solid #bababa;
+    color: #333333;
+    padding: 6px;
+    -webkit-border-radius: 5px;             
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #0092c9;
+}
+
+input[type='submit'], input[type='reset'], input[type='button'] {
+    border: none; 
+    background-color: #00478d;
+    color: #FFF;
+    padding: 5px 10px 6px 10px;
+}
+
+input[type='button']:hover, input[type='submit']:hover {
+    opacity: 0.7;
+    -moz-opacity: 0.7;
+    filter: alpha(opacity = 70) 
+}
+
+/*#conteudo {
+    background-color: #dddbdb;
+}*/
+
+/* CLASSES REUSAVEIS */
+.corpo {
+    width: auto;
+}
+
+.textoPequeno {
+    font-size: 10pt;
+}
+
+.textoMedio {
+    font-size: 12pt;
+}
+
+.textoCentro {
+    text-align: center
+}
+
+.textoEsquerdo {
+    text-align: left
+}
+
+.textoDireito {
+    text-align: right
+}
+
+.textoJustificado {
+    text-align: justify
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.formulario {
+    padding: 0;
+}
+
+.frmCabecalho{
+    background-color: #0092C9;
+    color: #FFF;
+    font-weight: bold;
+    text-shadow: 1px 1px #666666;
+    padding: 10px 0 10px 10px;
+}
+
+.campo {
+    font-size: 10pt;
+    padding: 5px 0 5px 80px;
+}
+
+.campo input {
+    margin: 5px 0 0 0;
+    background-color: #FFF
+}
+
+.campo select {
+    margin: 5px 0 0 0;
+}
+
+.botao {
+    position: relative;
+    padding: 0 0 10px 131px;
+}
+
+.btnPesquisar, .btnsCadastrar {
+    position: relative;
+    padding: 0 0 10px 80px;
+}
+
+.btnBackup {
+    position: relative;
+    padding: 0 0 10px 0;
+}
+
+.btnGerarRelatorio {
+    position: relative;
+    padding: 0 0 10px 0;
+}
+
+.campoPopup {
+    font-size: 11pt;
+}
+
+.campoPopup label {
+    padding: 0 10px 0 0;
+    font-size: 12pt;
+}
+
+.campoPopup, .botaoPopup {
+    padding: 10px 0 10px 10px;
+}
+
+.botao input[type='submit'] {
+    background-color: #00478D;
+    width: 90px;
+    -webkit-border-radius: 3px;             
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+.italico {
+    font-style: italic;
+}
+
+#mensagem {
+    font-size: 12pt;
+    display: none
+}
+
+.no-close .ui-dialog-titlebar-close {
+    display: none;
+}
+
+.tabela {
+    margin: 0 auto;
+    padding: 10px 83px 10px 83px;
+    font-size: 12pt;
+}
+
+.tabela .celulaIcone {
+    width: 5px;
+}
+
+.tabela table {
+    width: 100%;
+}
+
+.tabela table thead tr th {
+    padding: 8px;
+}
+
+.tabela table tbody tr td {
+    padding: 5px;    
+}
+
+.tabela .opcao {
+    color: #FFF
+}
+
+.high {
+    background-color: #ADD8E6;
+    color: #000
+}
+
+.low {
+    background-color: #F0F0F6;
+    color: #000
+}
+
+.paginacao {
+    text-align: right;
+}
+
+.paginacao input, select{
+    padding: 2px;
+}
+
+.paginacao .first, .prev, .next, .last {
+    position: relative;
+    top: 3px;
+    margin: 0 auto;
+    padding: 0 2px;
+    cursor: pointer
+}
+
+.oculto {
+    display: none;
+}
+
+.visivel {
+    display: block;
+}
+
+#dlgMsgSucesso div {
+    padding: 3px 50px;
+}
+
+#dlgMsgErro div {
+    padding: 3px 80px;
+}
+
+#dlgMsgCadastrado div {
+    padding: 3px 100px;
+}
+
+#dlgMsgProibicao div {
+    padding: 3px 40px;
+}
+
+#dlgMsgSucesso , #dlgMsgErro, #dlgMsgCadastrado, #dlgMsgProibicao {
+    margin: 0 auto;
+    width: 350px;
+}
+
+#dlgMsgSucesso span, #dlgMsgErro span, #dlgMsgCadastrado span, #dlgMsgProibicao span {
+    float: left; 
+    margin-right: .3em;
+}
+
+#dlgConfirm span {
+    float: left; 
+    margin: 0 7px 20px 0;
+}
+
+.modulo {
+    padding: 10px 80px;
+}
+
+.msgErroForm {
+    padding: 4px 0 6px 0;
+    background-color: #e84b4b;
+    color: #FFF;
+    text-align: center;
+}
+
+.vermelho {
+    color: #FF0000
+}
+
+.azul {
+    color: #0092c9;
+}
+
+.tdOpcao {
+    background-color: #ADD8E6;
+    text-align: center
+}
+
+.tdOpcao:last-child {
+    border-left: 2px solid #F0F0F6
+}
+
+#semBackground {
+    background: none
+}
+
+/* IMPRESSAO DE RELATORIOS */
+#imprimir {
+    padding: 10px;
+}
+
+#tblImprimirCabecalho {
+    width: 100%;
+    border: 2px solid #000;
+    font-size: 10pt
+}
+
+#tblImprimirCabecalhoSemBorda {
+    width: 100%;
+    font-size: 10pt
+}
+
+#tblImprimirCabecalho tr th {
+    padding: 10px 0 6px 20px;
+    font-weight: bold
+}
+
+#tblImprimirTitulo {
+    width: 100%;
+    margin: 15px 0 0 0;
+    font-size: 8pt
+}
+
+#tblImprimirConteudo {
+    width: 100%;
+    margin: 20px 0 0 0;
+    font-size: 8pt;
+}
+
+#tblImprimirConteudo tr th, #tblImprimirConteudo tr td {
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+#tblImprimirConteudo tr td hr {
+    border: 2px dotted #000
+}
+
+.bordaInferior {
+    border-bottom: 1px dashed #000;    
+}
+
+/* CADASTRO DE MEMBRO */
+#opcoesMembro {
+    font-size: 12pt;
+    padding: 5px 0 5px 80px;
+}
+
+#opcoesMembro a {
+    color: #FF0000;
+}
+
+#opcoesMembro a:hover {
+    text-decoration: underline
+}
+
+#opcoesMembro label {
+    color: #FF0000;
+}   
+
+/* ERROS */
+input.error { 
+    border: 1px solid #f53217
+}
+
+label.error {    
+    margin-left: 5px;
+    font-size: 11pt;
+    font-weight: normal;
+    color: #f53217
+}
+
+/* LOGIN */
+#login {
+    margin: 0 auto;
+    padding: 50px 0 100px 0;
+    width: 300px;
+}
+
+#camposLogin {
+    border: 1px solid #bababa;
+    background-color: #ffffff;
+    margin: 20px 0 0 0;
+    padding: 15px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;    
+}
+
+#camposLogin label {
+    float: left
+}
+
+#campoCpf input, #campoSenha input {
+    margin: 5px 0 5px 0;
+}
+
+#campoSenha {
+    padding: 5px 0 0 0;
+}
+
+#esqueceuSenha {
+    margin: 20px 0 0;
+    font-size: 10pt;
+    text-align: right;
+}
+
+#esqueceuSenha a:hover {
+    text-decoration: underline;
+}
+
+#botaoLogin {
+    width: 83px;
+    margin: 0 auto;
+    padding: 5px 0 0 0;
+}
+
+#erroLogin {
+    background: #ffe6e6;
+    margin: 0 auto;
+    padding: 5px 0;
+    text-align: center;
+    color: #f53217;
+    border: 1px solid #f53217;
+    -webkit-border-radius: 3px;             
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+/* COMPONENTES DE PAGINA */
+.cabecalho {
+    width: auto;
+    height: 70px;
+    background: #0092c9 url('../images/style/cabecalho.png') left top repeat-x;
+}
+
+.linha {
+    width: auto;
+    height: 3px;
+    background: #FFF;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.cabecalhoTitulo {
+    margin: 20px 0 0 20px;
+    font-size: 20pt;
+    color: #ffffff;
+    float: left;
+}
+
+.cabecalhoTitulo h1 {
+    padding: 0 0 6px 0;
+}
+
+.cabecalhoTitulo label {
+    font-size: 10pt;
+}
+
+.tam16 {
+    width: 16px;
+}
+
+/* EXTRAS */
+.extras {
+    padding: 10px 0 10px 85px;
+    font-size: 10pt;
+}
+
+.extras ul li {
+	float: left;
+    padding: 0 5px 0 0;
+    color: #cc0000;
+}
+
+.extras ul li a img {
+    width: 13px;
+    position: absolute;
+}
+
+.extras ul li a label {
+    padding: 0 0 0 18px;
+}
+
+.extrasConteudo {
+    padding: 10px 0;
+}
+
+.extrasConteudo ul li {
+    padding: 10px 5px;
+    color: #cc0000;
+    display: inline;
+}
+
+.extrasConteudo ul li a img {
+    width: 18px;
+    position: absolute;
+}
+
+.extrasConteudo ul li a label {
+    margin: 0 0 0 22px;
+    padding: 10px 0 10px 0;
+    color: #cc0000;
+    font-size: 11pt;
+}
+
+.extras ul li a label {
+    color: #cc0000;
+    cursor: pointer;
+    position: absolute;
+}
+
+/* MODULOS */
+.modulos {    
+    padding: 0 0 0 70px;
+}
+
+.modulos li {
+    display: inline-block; 
+    padding: 15px;
+
+}
+
+.modulos li a:hover {
+    color: #0092c9;
+}
+
+#imgAdmin, #imgPerfil, #imgCadastro, 
+#imgPesquisar, #imgCadastrar, #imgModulo, 
+#imgBackup, #imgCongregacao, #imgCulto,
+#imgRelatorio, #imgMovimentacao, #imgDespesaTipo, 
+#imgFuncao, #imgReceita, #imgDespesa {
+    width: 48px;
+    height: 48px;
+    padding: 0 0 5px 0;
+    position: relative;
+    margin: 0 auto;
+}
+
+#imgAdmin {
+    background: url("../images/icons/admin.png") no-repeat;
+}
+
+#imgPerfil {
+    background: url("../images/icons/perfil.png")  no-repeat;
+}
+
+#imgCadastro {
+    background: url("../images/icons/cadastro.png")  no-repeat;
+}
+
+#imgPesquisar {
+    background: url("../images/icons/pesquisar.png")  no-repeat;
+}
+
+#imgCadastrar {
+    background: url("../images/icons/adicionar.png")  no-repeat;
+}
+
+#imgModulo {
+    background: url("../images/icons/modulo.png") no-repeat;
+}
+
+#imgBackup {
+    background: url("../images/icons/backup.png") no-repeat;
+}
+
+#imgCongregacao {
+    background: url("../images/icons/congregacao.png") no-repeat;
+}
+
+#imgCulto {
+    background: url("../images/icons/culto.png") no-repeat;
+}
+
+#imgMovimentacao {
+    background: url("../images/icons/movimentacao.png") no-repeat;
+}
+
+#imgReceita {
+    background: url("../images/icons/receita.png") no-repeat;
+}
+
+#imgDespesaTipo {
+    background: url("../images/icons/despesaTipo.png") no-repeat;
+}
+
+#imgDespesa {
+    background: url("../images/icons/despesa.png") no-repeat;
+}
+
+#imgRelatorio {
+    background: url("../images/icons/relatorio.png") no-repeat;
+}
+
+#imgFuncao {
+    background: url("../images/icons/funcao.png") no-repeat;
+}
+
+.titulo {
+    border: 1px solid #0092C9;
+    background-color: #F0F0F6;
+    color: #0092C9;
+    font-weight: bold;
+    text-shadow: 2px 2px #e2e2e2;
+    padding: 10px 0 10px 10px;
+    -webkit-border-radius: 5px;             
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+/* MENU ESTRUTURAL */
+.menuEstrutural {    
+    background: #0092C9;
+    color: #FFF;
+    padding: 10px 0 10px 84px;
+}
+
+.menuEstrutural a {
+    color: #FFF;
+    font-size: 10pt;
+    text-decoration: none;
+}
+
+/* INICIO */
+.opcoes ul {
+    padding: 0 0 35px 82px;
+}
+
+.opcoes ul li a {
+    background: #00478D;
+    color: #FFF;
+    font-size: 11pt;
+    padding: 8px 15px 8px 15px;
+}
+
+.meuPerfil {
+    margin: 0 0 0 58px;
+    padding: 0 0 225px 0;
+}
+
+.fotoPerfil {
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    margin: 25px;
+    float: left;
+}
+
+.nomePerfil {
+    margin: 149px 0 0 0;
+    float: left;
+}
