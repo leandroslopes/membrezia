@@ -8,7 +8,9 @@ Este sistema foi criado para atender a demanda de igrejas que querem gerenciar d
 * Cadastro de Usuários (Cadastrar, Editar, Alterar Senha)
 * Cadastro de Congregação (Cadastrar, Editar, Adicionar Culto, Adicionar Oferta)
 * Cadastro de Culto (Cadastrar, Editar)
-* Relatório de Membros, Congregações, Dízimos e Ofertas
+* Cadastro de Função Eclesiástica (Cadastrar, Editar)
+* Cadastro de Despesas (Cadastrar, Editar, Excluir)
+* Relatório de Membros, Congregações, Despesas, Dízimos e Ofertas
 
 ## Ferramentas
 
