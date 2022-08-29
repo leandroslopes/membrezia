@@ -17,7 +17,7 @@ $loginErro = filter_input(INPUT_GET, "q");
     </head>
     <body>
         <div class="corpo">
-            <?php require SystemUtil::URL_SYSTEM . "pageComponents/header.php?idModulo=login" ?>
+            <?php include SystemUtil::URL_SYSTEM . "pageComponents/header.php?idModulo=login" ?>
 
             <div id="login">
                 <?php
